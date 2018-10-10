@@ -6,7 +6,10 @@ body {background: #5c8cbb;}
   box-shadow: none;
   border-color: #f4f4f4;
 }
-h1 {font-size: 2rem;}
+h1 {
+  font-size: 2rem;
+  color: #5c8cbb;
+}
 /* #endregion General CSS */
 
 .App {
