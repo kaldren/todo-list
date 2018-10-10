@@ -6,6 +6,8 @@ body {background: #5c8cbb;}
   box-shadow: none;
   border-color: #f4f4f4;
 }
+.btn-primary.focus, .btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {box-shadow: none;}
 h1 {
   font-size: 2rem;
   color: #5c8cbb;
@@ -78,7 +80,7 @@ box-shadow: 0px 5px 5px -4px rgba(168,168,168,1);
 /* #section List Item */
 .list-item {
   margin-bottom: 50px;
-  background: rgb(189, 234, 255);
+  background: rgb(216, 219, 228);
   padding: 10px;
   border-radius: 5px;
   clear:both;
