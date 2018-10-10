@@ -1,5 +1,8 @@
 /* #region General CSS */
-body {background: #5c8cbb;}
+body {
+  background: #5c8cbb;
+  font-family: 'Roboto', sans-serif;
+}
 .displayNone {display: none;}
 .displayBlock {display: block;}
 .form-control:focus {
@@ -16,7 +19,6 @@ h1 {
 
 .App {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -80,7 +82,9 @@ box-shadow: 0px 5px 5px -4px rgba(168,168,168,1);
 /* #section List Item */
 .list-item {
   margin-bottom: 50px;
-  background: rgb(216, 219, 228);
+  -webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.36);
+  box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.36);
   padding: 10px;
   border-radius: 5px;
   clear:both;
