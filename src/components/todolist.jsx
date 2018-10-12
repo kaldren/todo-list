@@ -4,7 +4,7 @@ import TodoListItem from "./TodoListItem";
 class TodoList extends Component {
   constructor(props) {
     super(props);
-    var storageArray;
+    var storageArray = null;
   }
 
   state = {
@@ -23,6 +23,7 @@ class TodoList extends Component {
       return null;
     }
     items.push(this.state.itemVal);
+    localStorage.setItem(this.state.itemVal, this.state.itemVal);
 
     this.setState({
       items,
